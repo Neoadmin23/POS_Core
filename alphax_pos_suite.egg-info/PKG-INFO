@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: alphax_pos_suite
+Version: 15.5.28
+Summary: AlphaX Bonanza POS Pack (XPOS + αPOS) for ERPNext/Frappe v15+
+Author: AlphaX
+Requires-Dist: frappe>=15.0.0
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary
