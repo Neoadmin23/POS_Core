@@ -1,0 +1,30 @@
+# --- local tooling (never commit) ---
+.jetro/
+.vscode/
+.idea/
+*.code-workspace
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# --- node (frontend/ is source-only; runtime assets are committed under public/) ---
+node_modules/
+alphax_pos_suite/frontend/dist/
+alphax_pos_suite/frontend/.vite/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- secrets: never, under any name ---
+*credentials*.json
+*.pem
+*.key
+.env
+.env.*
